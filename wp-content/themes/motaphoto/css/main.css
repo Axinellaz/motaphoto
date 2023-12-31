@@ -1,0 +1,26 @@
+body{
+    overflow: hidden;
+    font-size: 16px;
+}
+
+/*  M o d a l e    C o n t a c t   */ 
+.popup__overlay{
+    width: 30%;
+    height: 75vh;
+    border: 3px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+.popup__container-items{
+    position: absolute;
+    top: 0;
+}
+.container_img-title-modale-contact{
+    width: 40%;
+}
+
+.container_img-title-modale-contact img{
+    width: 26rem;
+    height: 6.6rem;
+}
