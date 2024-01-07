@@ -1,4 +1,5 @@
 <div class="popup__overlay">
+    <img class="close__icone" src="wp-content/themes/motaphoto/assets/icone-close.png" alt="icone fermer">
     <div class="popup__container-items">
         <div class="container_img-title-modale-contact">
             <img src="wp-content/themes/motaphoto/assets/modale-contact.png" alt="image titre modale contact">

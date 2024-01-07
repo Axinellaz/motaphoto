@@ -50,7 +50,7 @@ nav > ul > li > a {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 44px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -61,8 +61,8 @@ nav > ul > li > a {
 }
 
 .popup__container-items{
-     width: 40%;
-    height: 80vh;
+     width: 35%;
+    height: 90vh;
     border: 3px solid var(--black-color);
     overflow: hidden;
     position: relative;
@@ -72,18 +72,67 @@ nav > ul > li > a {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .container_img-title-modale-contact{
-    width: 40%;
+    width: 100%;
+    margin-bottom: 25px;
 }
 
 .container_img-title-modale-contact img{
-    height: 6.6rem;
+    height: 4rem;
+    width: 100%;
+}
+
+/* MODALE CONTACT - I c o n e   C l o s e */
+
+.close__icone{
+    position: absolute;
+    top: 4%;
+    right: 29%;
+    cursor: pointer;
 }
 
 /* MODALE CONTACT - F o r m u l a i r e */
-.wpcf7{
+.wpcf7-form{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
 }
+.wpcf7 > form > p > label{
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+}
+.wpcf7 > form > p {
+    margin: 0px;
+}
+
+.wpcf7 > form > p > label > span > input{
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #B8BBC2;
+    width: 70%;
+    margin: 8px 0px;
+
+}
+
+.wpcf7 > form > p > label > span > textarea{
+    border-radius: 12px;
+    border: 1px solid #B8BBC2;
+    width: 70%;
+    margin: 8px 0px;
+    padding: 0px 10px;
+}
+
+
+/* MODALE CONTACT -  B t n     E n v o y e r */
+.wpcf7-submit{
+    background-color: #D8D8D8;
+    padding: 10px 100px;
+    border: none;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+}
+
 
 /*     F O O T E R       */ 
 .site__footer{
